@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Register from "./components/RegisterComponent.jsx";
+import Sidebar from "./Components/SIdebar.jsx";
+
 class App extends Component {
   render() {
     return (
@@ -8,7 +9,10 @@ class App extends Component {
         <div className="App">
           <div className="split">
             <div className="left">
-              <Register />
+              <div className="centered">
+                <h2>Header</h2>
+                <p>Constant data on the top of all pages or parts of the application</p>
+              </div>
             </div>
             <div className="  left1">
               <div className="centered">
@@ -19,13 +23,7 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="  right">
-            <div className="centered">
-
-              <h2>Sidebar carousel</h2>
-              <p>Displays promotional information about star health</p>
-            </div>
-          </div>
+          <Sidebar />
         </div>
         <div className="  left3">
           <div className="centered">
