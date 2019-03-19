@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from "./Components/SIdebar.jsx";
-import Register from "./Components/RegisterComponent.jsx";
+import Register from "./Components/Register.jsx";
 class App extends Component {
   render() {
     return (
@@ -9,13 +9,13 @@ class App extends Component {
         <div className="App">
           <div className="split">
             <div className="left">
-              <Register />
+            <h2>Header</h2>
+            <p>Constant data on the top of all pages or parts of the application</p>
             </div>
             <div className="  left1">
               <div className="centered">
-
-                <h2>Registering a plan for family</h2>
-                <p>A step by step process with a meaningful UI for better understanding</p>
+              <Register />
+               
               </div>
             </div>
           </div>
