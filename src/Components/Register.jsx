@@ -155,7 +155,8 @@ class Register extends React.Component {
                     <div class="input-group-addon">
                       <i class="fa fa-mobile fa-1x mailIcon"></i>
                     </div>
-                    <input class="form-control" id="email" name="email" type="text" placeholder="Mobile Number" />
+                    <input class="form-control" id="email" name="email" type="email"  pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required
+     placeholder="Mobile Number" />
                   </div>
                   <div class="input-group">
                     <div class="input-group-addon">
