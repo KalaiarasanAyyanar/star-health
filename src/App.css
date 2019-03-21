@@ -55,7 +55,130 @@
   height: 100%;
   background-color: rgb(53, 71, 137);
 }
+.MuiStepConnector-lineHorizontal-109 {
+  border-top-style: solid;
+  border-top-width: 1px !important;
+  width: 100px !important;
+  margin-left: 5px !important;
+}
 
+.MuiStep-horizontal-36:first-child {
+  padding-left: 0;
+  padding-right: 0 !important;
+  width: 50px !important;
+}
+
+.MuiStepLabel-root-40 {
+  display: flex;
+  font-size: 30px !important;
+  width: 45px !important;
+  align-items: center;
+}
+.MuiStepIcon-root-51.MuiStepIcon-active-53 {
+  color: #4dbd56 !important;
+  font-size: 50px !important;
+}
+
+.MuiStepConnector-root-101 {
+  flex: 0 0 0 !important;
+}
+.MuiStepConnector-line-108 {
+  display: block;
+  border-color:black !important;
+}
+
+.MuiStepIcon-root-51 {
+  color: #4dbd56 !important;
+  display: block;
+  font-size: 50px !important;
+}
+
+.BottomButton {
+  margin-top:0px !important;
+  padding-top:3px !important;
+  float: right !important;
+  padding-bottom:0px !important;
+  margin-bottom:0px !important;
+}
+
+.MuiButton-containedPrimary-123 {
+  color: #fff;
+  background-color: #4dbd56 !important;
+}
+
+.MuiButton-root-111 {
+  width: 170px !important;
+  height: 40px !important;
+  font-size: 15px !important;
+}
+
+.MuiTypography-body1-74 {
+  padding-left:50px !important;
+  font-size: 4.2rem !important;
+
+} 
+
+.MuiStepper-horizontal-5 {
+  padding-left:50px !important;
+}
+.register-heading{
+  margin-top:100px !important;
+  padding-top: 50px !important;
+  color: rgb(29, 71, 150) !important;
+  padding-left: 50px !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+}
+.mailIcon{
+  color: rgb(6, 6, 124);
+  font-size: 20px !important;
+}
+.form-control{
+  width:270px !important;
+  height: 45px !important;
+}
+.input-group-addon {
+  background-color: white !important;
+}
+.form-group {
+  display: flex !important;
+  padding:50px !important;
+}
+.input-group {
+  padding-left:40px !important;
+  padding-right:20px !important;
+}
+.checkbox {
+  padding-left:150px !important;
+}
+.logo {
+width: 0px !important;
+}
+
+.aimage1 {
+  margin-left: 120px !important;
+  width: 140px !important;
+  height: 55px !important;
+  padding-right: 15px !important;
+  border-right: 0.5px solid black;
+}
+ 
+.left {
+  padding-top: 30px !important;
+  height: 110px !important;
+  background-color: transparent !important;
+  border-bottom: 0.5px solid rgb(179, 173, 173) !important;
+}
+
+.header {
+  display: flex !important;
+}
+
+.disp {
+  padding-left: 20px !important;
+  font-size: 20px !important;
+  width: 390px !important;
+  color: rgb(5, 5, 114) !important;}
 /* insurance policy CSS */
 
 .insurance-policy{

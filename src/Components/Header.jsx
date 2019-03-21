@@ -3,8 +3,11 @@ import React from "react";
 const Header = () => {
     return(
         <div className="left">
-        <h2>Header</h2>
-        <p>Constant data on the top of all pages or parts of the application</p>
+              
+           <div className="header">
+           <img className="aimage1" src='https://www.starhealth.in/sites/default/files/logo.png' />  
+           <div className="disp">Keep yourself aand your loved ones safe with starhealth insurance</div>
+           </div>
         </div>
     );
 }
