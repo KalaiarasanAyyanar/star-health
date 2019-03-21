@@ -6,7 +6,7 @@ const data = ["The 1896 Cedar Keys hurricane was a powerful tropical cyclone tha
 const Sidebar = () => {
     return (
         <div className=" right">
-            <div className="">
+            
                 <Carousel
                     animation={true}
                     wrap={true}
@@ -16,11 +16,12 @@ const Sidebar = () => {
                     slideshowSpeed={2000}
                     autoplay={false}
                     defaultActiveIndex={0}
+                
                 >
                     {
-                        data.map((prop) => {
+                        data.map((prop,key) => {
                             return (
-                                <div className="sidebar-carousel-content">
+                                <div key={key} className="sidebar-carousel-content">
                                 {
                                     prop
                                 }
@@ -31,7 +32,6 @@ const Sidebar = () => {
                     }
                 </Carousel>
 
-            </div>
         </div>
     )
 }

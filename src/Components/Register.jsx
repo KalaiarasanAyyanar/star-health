@@ -126,7 +126,6 @@ class Register extends React.Component {
             }
             return (
               <Step key={label} >
-              {console.log("label",labelProps)}
                 <StepLabel {...labelProps}>{label}</StepLabel>
               </Step>
             );
