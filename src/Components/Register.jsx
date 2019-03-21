@@ -149,27 +149,28 @@ class Register extends React.Component {
               <div>
 
                 <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
-                <div class="form-group">
-
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-mobile fa-1x mailIcon"></i>
+                <form>
+                <div className="form-group">
+                  <div className="input-group">
+                    <div className="input-group-addon">
+                      <i className="fa fa-mobile fa-1x mailIcon"></i>
                     </div>
-                    <input class="form-control" id="email" name="email" type="text" placeholder="Mobile Number" />
+                    <input className="form-control" id="email" name="email" type="text" pattern= "[789][0-9]{9}" required
+     placeholder="Mobile Number" />
                   </div>
-                  <div class="input-group">
-                    <div class="input-group-addon">
+                  <div className="input-group">
+                    <div className="input-group-addon">
                       <i className="fa fa-envelope mailIcon" aria-hidden="true"></i>
                     </div>
-                    <input class="form-control" id="email" name="email" type="text" placeholder="Email Address" />
+                    <input className="form-control" id="email" name="email" type="email" placeholder="Email Address" required />
                   </div>
                 </div>
-                <label className="checkbox"><input type="checkbox" name="checkbox" value="value" onClick={this.handleCheckTerms}checked={this.state.checkTerms}/>I agree to the <a href="https://www.starhealth.in/terms"> {termsAndConditions} </a></label>
+                <label className="checkbox"><input type="checkbox" name="checkbox" value="value" checked={this.state.checkTerms} onChange={this.handleCheckTerms}/>I agree to the <a href="https://www.starhealth.in/terms"> {termsAndConditions} </a></label>
                   <div className="BottomButton">
                     <Button
                       disabled={activeStep === 0}
                       onClick={this.handleBack}
-                      className={classes.button}
+                      className={classes.button} 
                     >
                       Back
                 </Button>
@@ -180,10 +181,12 @@ class Register extends React.Component {
                       onClick={this.handleNext}
                       className={classes.button}
                       disabled={!this.state.checkTerms}
+                      type = "submit"
                     >
                       {activeStep === steps.length - 1 ? 'Finish' : 'continue→'}
                     </Button>
                   </div>
+                  </form>
             </div>
                 )}
         </div>

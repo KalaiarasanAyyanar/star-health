@@ -15,9 +15,9 @@ const TitleAndText = (props) => {
             }
             <div className="title-and-text--text-container">
                 {
-                    props.textArray.map((text)=>{
+                    props.textArray.map((text,key)=>{
                         return(
-                            <div className="title-and-text--text">
+                            <div key={key} className="title-and-text--text">
                                 {text}
                             </div>
                         );

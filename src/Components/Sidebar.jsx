@@ -27,7 +27,7 @@ const data = [
 const Sidebar = () => {
     return (
         <div className=" right">
-            <div className="">
+            
                 <Carousel
                     animation={true}
                     wrap={true}
@@ -37,6 +37,7 @@ const Sidebar = () => {
                     slideshowSpeed={4000}
                     autoplay={true}
                     defaultActiveIndex={0}
+                
                 >
                     {
                         data.map((prop,key) => {
@@ -48,7 +49,6 @@ const Sidebar = () => {
                     }
                 </Carousel>
 
-            </div>
         </div>
     )
 }
