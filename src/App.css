@@ -137,7 +137,7 @@
   font-weight: 500 !important;
 }
 .mailIcon{
-  color: rgb(17, 17, 199);
+  color: rgb(6, 6, 124);
   font-size: 20px !important;
 }
 .form-control{
@@ -157,4 +157,33 @@
 }
 .checkbox {
   padding-left:150px !important;
+}
+.logo {
+width: 0px !important;
+}
+
+.aimage1 {
+  margin-left: 120px !important;
+  width: 140px !important;
+  height: 55px !important;
+  padding-right: 15px !important;
+  border-right: 0.5px solid black;
+}
+ 
+.left {
+  padding-top: 30px !important;
+  height: 110px !important;
+  background-color: transparent !important;
+  border-bottom: 0.5px solid rgb(179, 173, 173) !important;
+}
+
+.header {
+  display: flex !important;
+}
+
+.disp {
+  padding-left: 20px !important;
+  font-size: 20px !important;
+  width: 390px !important;
+  color: rgb(5, 5, 114) !important;
 }
