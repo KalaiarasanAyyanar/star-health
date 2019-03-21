@@ -53,7 +53,7 @@
 .right {
   width: 25%;
   height: 100%;
-  background-color: rgb(129, 215, 255);
+  background-color: rgb(53, 71, 137);
 }
 
 /* insurance policy CSS */
@@ -115,4 +115,10 @@
   font-weight: 400;
   font-size: 18px;
   padding-bottom: 10px;
+}
+
+/* Sidebar */
+
+.sidebar-carousel-content{
+  padding-bottom:  100%;
 }
