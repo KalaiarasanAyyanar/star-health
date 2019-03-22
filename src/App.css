@@ -281,3 +281,8 @@ width: 0px !important;
   display: flex !important;
   left: 0% !important;
  }
+
+ .carousel-indicators >li{
+   margin-left:22px !important
+ }
+ 
