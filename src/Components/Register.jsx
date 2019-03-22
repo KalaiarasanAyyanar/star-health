@@ -75,7 +75,6 @@ class Register extends React.Component {
   };
 
   isStepComplete(step) {
-    console.log("complete->", this.state.completed.has(step));
     return this.state.completed.has(step);
   }
 

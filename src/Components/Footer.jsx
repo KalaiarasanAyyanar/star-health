@@ -18,9 +18,9 @@ const Footer = () => {
             <br></br>
             <p style={{ float: "right", marginRight: "110px", marginLeft: "100px" }}>Copyright &copy; 2019.Star Insurance .All rights reserved</p>
      {
-    footer[0].Address.map((text)=>{
+    footer[0].Address.map((text,key)=>{
         return(
-            <p style={{ marginTop: "0px", marginBottom: "0px", marginLeft: "100px" }}>{text}</p>
+            <p key={key} style={{ marginTop: "0px", marginBottom: "0px", marginLeft: "100px" }}>{text}</p>
            
         )
     })
