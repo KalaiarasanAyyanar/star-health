@@ -2,6 +2,7 @@ import React from "react";
 import small1 from "../Images/star1.png"
 import small2 from "../Images/star2.png"
 import small3 from "../Images/star3.png"
+import '../../src/App.css'
 const members = [
   {
     heading: "Myself",
@@ -20,7 +21,7 @@ const InsuranceMembers = () => {
   return (
 
 
-    <div>
+    <div className="left2">
       <div className="container-fluid">
 
         <div className="row">
