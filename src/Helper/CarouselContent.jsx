@@ -8,9 +8,9 @@ const CarouselContent = (props) =>{
             </div>
             <div className="carousel-content-data-container">
                 {
-                    props.content.data.map((text)=>{
+                    props.content.data.map((text,key)=>{
                         return(
-                            <div className="carousel-content-data">
+                            <div key={key} className="carousel-content-data">
                             {text}
                             </div>
                         );
