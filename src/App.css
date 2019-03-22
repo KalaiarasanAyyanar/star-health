@@ -27,11 +27,7 @@
 
 .left2 {
   overflow: hidden;
-<<<<<<< HEAD
-  
-=======
   background-color: transparent !important;
->>>>>>> 7fd83cacfa30a8ba93203325c9e15df8b01d5486
 }
 
 .left4 {
@@ -184,12 +180,7 @@ width: 0px !important;
   padding-top: 30px !important;
    height: 110px !important; 
   background-color: transparent !important;
-<<<<<<< HEAD
   border-bottom: 0.5px solid rgb(179, 173, 173) !important; 
-=======
-  border-bottom: 0.5px solid rgb(179, 173, 173) !important;
-  width: 100% !important;
->>>>>>> 7fd83cacfa30a8ba93203325c9e15df8b01d5486
 }
 
 .header {
