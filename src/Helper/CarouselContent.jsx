@@ -2,7 +2,7 @@ import React from "react";
 
 const CarouselContent = (props) =>{
     return(
-        <div>
+        <div className = "carousel-content-full-data">
             
             <div className="carousel-content-heading" style={{fontSize:"24px"}}>
                 {props.content.heading}

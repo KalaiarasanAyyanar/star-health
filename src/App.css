@@ -362,3 +362,29 @@ width: 0px !important;
 .MuiStepper-horizontal-5 {
   width: 550px !important;
 }
+
+@media only screen and (max-width: 910px) {
+  .right {
+    width: 100% !important;
+    height: 30em !important;
+  }
+  .carousel-indicators li {
+    opacity: 1;
+    border-radius: 10% !important;
+    width: 60px !important;
+    height: 7px !important;
+   }
+  
+   .carousel-indicators{
+     padding-left: 20px;
+    top:28em ;
+    
+    width:80% !important;
+    margin-left: 30% !important;
+    display: flex !important;
+    left: 0% !important;
+   }
+  .carousel-content-full-data {
+    margin-left: 30% !important;
+  }
+}

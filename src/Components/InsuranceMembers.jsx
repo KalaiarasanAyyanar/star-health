@@ -8,7 +8,6 @@ const InsuranceMembers = () => {
 
           <div>
       <div className="container-fluid">
-      
       <div className="row">
         <div className="col-sm-4" ></div>
         <div className="col-sm-4" >
@@ -19,10 +18,8 @@ const InsuranceMembers = () => {
 <p style={{fontSize:"17px",fontWeight:"500",color:"black"}}>Hospital cash benefits</p>
 <p style={{fontSize:"17px",fontWeight:"500",color:"black"}}>Cover for over 400 day care procedures</p>
 <p style={{fontSize:"17px",fontWeight:"500",color:"black"}}>Free health check-up for every block of 3 claim free years.</p>
-        
         </div>
         <div className="col-sm-4"  >
-    
 								<img  src={small1} alt="">
     </img>
       </div>
