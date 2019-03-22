@@ -301,6 +301,7 @@ width: 0px !important;
   left: 0% !important;
  }
 
+<<<<<<< HEAD
  .MuiStepIcon-root-58.MuiStepIcon-active-60{
    color: rgb(149, 209, 48) !important;
    font-size:47px !important;
@@ -361,3 +362,9 @@ width: 0px !important;
 .MuiStepper-horizontal-5 {
   width: 550px !important;
 }
+=======
+ .carousel-indicators >li{
+   margin-left:22px !important
+ }
+ 
+>>>>>>> a49c2f30ad43cfd44987648b4cea7ce87cf68f76

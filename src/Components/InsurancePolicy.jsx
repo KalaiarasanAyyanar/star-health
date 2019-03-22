@@ -3,16 +3,16 @@ import TitleAndText from "../Helper/TitleAndText.jsx";
 import image from "../Images/InsurancePolicyImage.png";
 const data = {
     head: {
-        title: "Key Features",
-        breifData: "IRDA/NL-91/IRDA/NL-91/IRDA/NL-91",
-        text: ["A paragraph (from the Ancient Greek παράγραφος paragraphos, to write beside or written beside) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences"]
+        title: "Star Comprehensive Insurance policy",
+        breifData: "IRDAI/NL-HLT/SHAI/P-H/V.III/398/14-15",
+        text: ["It’s often said that your health is your wealth. And with the same belief, we make it our mission to ensure that your health is never compromised. That’s why we offer you an array of flexible plans to protect your health.Be it for yourself or your near and dear ones, health shall never come second with Star Health Insurance by your side."]
     },
     left: {
         title: "Key Features",
         text: ["No capping No room rent", "Covers medical expenses", "Cost of health check up", "Cover for maternity"]
     },
     right: {
-        title: "Key Features",
+        title: "Advantages",
         text: ["No capping No room rent", "Covers medical expenses", "Cost of health check up", "Cover for maternity"]
     }
 }
