@@ -10,8 +10,9 @@ const Home = () => {
                 <Header />
                 <Register />
             </div>
-
+            
             <Sidebar />
+           
         </div>
     );
 }
