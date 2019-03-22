@@ -10,11 +10,13 @@ const CarouselContent = (props) =>{
                 {
                     props.content.data.map((text,key)=>{
                         return(
+                            <div key={key} className="carousel-content-data">
                             <div>
                             <div key={key} className="carousel-content-data" style={{fontSize:"15px"}}>
                             {text}
                             </div>
                             <br></br>
+                            </div>
                             </div>
                         );
                     })

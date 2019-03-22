@@ -26,10 +26,10 @@
 }
 
 .left2 {
-  width: 100%;
-  height: 80%;
+  width: 100% !important;
+  height: 47em !important;
   overflow: hidden;
-  background-color: rgb(248, 160, 160);
+  background-color: transparent !important;
 }
 
 .left4 {
@@ -59,9 +59,16 @@
 }
 
 .MuiStep-horizontal-36:first-child {
-  padding-left: 0;
+  padding-left: 10px !important;
   padding-right: 0 !important;
-  width: 50px !important;
+  width: 30px !important;
+}
+.MuiStep-horizontal-36 {
+  padding-left:0px !important;
+  padding-right: 0px !important;
+  text-align: center !important;
+  width: 40px !important;
+  align-items: center !important;
 }
 
 .MuiStepLabel-root-40 {
@@ -83,6 +90,15 @@
   border-color:black !important;
 }
 
+.MuiStepConnector-root-108 {
+ margin-left: 0px !important;
+}
+
+.MuiStepConnector-lineHorizontal-116 {
+  padding-right:0px !important;
+  margin-right:0px !important;
+}
+
 .MuiStepIcon-root-51 {
   color: #4dbd56 !important;
   display: block;
@@ -92,9 +108,9 @@
 .BottomButton {
   margin-top:0px !important;
   padding-top:3px !important;
-  float: right !important;
   padding-bottom:0px !important;
   margin-bottom:0px !important;
+ float:right !important;
 }
 
 .MuiButton-containedPrimary-123 {
@@ -154,7 +170,7 @@ width: 0px !important;
   width: 100% !important;
 }
 .aimage1 {
-  margin-left: 120px !important;
+  margin-left: 80px !important;
   width: 140px !important;
   height: 55px !important;
   padding-right: 15px !important;
@@ -174,9 +190,12 @@ width: 0px !important;
 
 .disp {
   padding-left: 20px !important;
-  font-size: 20px !important;
-  width: 390px !important;
-  color: rgb(5, 5, 114) !important;}
+  font-size: 15px !important;
+  width: 300px !important;
+  padding-top: 10px !important;
+  color: rgb(5, 5, 114) !important;
+  font-weight: 500 !important;
+}
 /* insurance policy CSS */
 
 .insurance-policy{
@@ -282,7 +301,63 @@ width: 0px !important;
   left: 0% !important;
  }
 
- .carousel-indicators >li{
-   margin-left:22px !important
+ .MuiStepIcon-root-58.MuiStepIcon-active-60{
+   color: rgb(149, 209, 48) !important;
+   font-size:47px !important;
+   
  }
- 
+.MuiStepIcon-text-59 {
+  font-size: 10px !important;
+}
+
+.MuiStepIcon-root-58 {
+  font-size:47px !important;
+  color: white !important;
+  border: 1px solid rgb(185, 181, 181) !important;
+  border-radius: 50% !important;
+}
+
+.MuiStepIcon-text-59 {
+  fill: rgb(153, 145, 145) !important;
+}
+
+.Register-instructions-3 {
+  margin-left: 80px !important;
+  width: 600px !important;
+  font-size: 25px !important;
+}
+
+.MuiButton-containedPrimary-130 {
+  width:160px !important;
+  height: 40px !important;
+  border-radius: 0% !important;
+  box-shadow: none !important;
+  font-size: 16px !important;
+  text-transform: none !important;
+  background-color: rgb(149, 209, 48) !important;
+  top:0px !important;
+}
+
+
+.checkTermsFalse{
+  display: none !important;
+}
+
+.form-group {
+  margin-left: 0px !important;
+  padding-left: 40px !important;
+}
+
+.checkbox {
+  padding-left: 100px !important;
+}
+.MuiStepper-horizontal-5 {
+  padding-left: 80px !important;
+}
+.register-heading {
+  padding-left: 80px !important;
+}
+
+.MuiStepper-horizontal-5 {
+  width: 550px !important;
+}

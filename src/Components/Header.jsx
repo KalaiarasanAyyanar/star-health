@@ -6,7 +6,7 @@ const Header = () => {
               
            <div className="header">
            <img className="aimage1" src='https://www.starhealth.in/sites/default/files/logo.png' alt="OOPS!!!!"/>  
-           <div className="disp">Keep yourself aand your loved ones safe with starhealth insurance</div>
+           <div className="disp">Keep yourself and your loved ones safe with starhealth insurance</div>
            </div>
         </div>
     );
