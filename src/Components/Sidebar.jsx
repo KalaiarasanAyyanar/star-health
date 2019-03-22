@@ -26,7 +26,7 @@ const Sidebar = () => {
         <div className=" right">
             
                 <Carousel
-                    animation={true}
+                    animation={false}
                     wrap={true}
                     indicators={true}
                     controls={false}
@@ -34,7 +34,6 @@ const Sidebar = () => {
                     slideshowSpeed={3000}
                     autoplay={true}
                     defaultActiveIndex={0}
-                
                 >
                     {
                         data.map((prop,key) => {

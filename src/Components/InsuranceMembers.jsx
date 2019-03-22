@@ -53,7 +53,7 @@ const InsuranceMembers = () => {
   </div>
   <div className="container-fluid">
       
-      {/* <div className="row">
+      <div className="row">
         <div className="col-sm-4" ></div>
         <div className="col-sm-4" >
         <h3 style={{color:"#35488a"}}>My Parents</h3>
@@ -70,7 +70,7 @@ const InsuranceMembers = () => {
         <img  src={small3} alt="">
     </img>
       </div>
-    </div> */}
+    </div>
     </div>
    
   </div>
